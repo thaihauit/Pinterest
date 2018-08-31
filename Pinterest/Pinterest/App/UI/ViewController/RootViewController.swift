@@ -59,7 +59,7 @@ class RootViewController: PrimaryViewController, NTTransitionProtocol, NTWaterFa
                                             // Do something with it, start upload perhaps?
         }, deselect: { (asset: PHAsset) -> Void in
             // User deselected an assets.
-            // Do something, cancel upload?
+            
         }, cancel: { (assets: [PHAsset]) -> Void in
             // User cancelled. And this where the assets currently selected.
         }, finish: { (assets: [PHAsset]) -> Void in
